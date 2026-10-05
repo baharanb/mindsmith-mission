@@ -1,30 +1,101 @@
 <!doctype html>
 <html lang="fa" dir="rtl">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>پرامپت اسلاید ۲۷</title>
-<style>
-body {font-family:Tahoma,Arial,sans-serif;background:#f5f5f5;margin:0;padding:24px;color:#222}
-.card {max-width:900px;margin:0 auto;background:white;border-radius:18px;padding:24px;box-shadow:0 8px 30px rgba(0,0,0,.08)}
-h1 {font-size:1.4rem;margin:0 0 10px}
-.subtitle {margin:0 0 18px;color:#555;line-height:1.8}
-.prompt {white-space:pre-wrap;line-height:1.95;border:1px solid #ddd;border-radius:12px;padding:18px;background:#fafafa;max-height:62vh;overflow:auto}
-button {width:100%;margin-top:16px;padding:15px 18px;font-size:1.05rem;border:0;border-radius:12px;cursor:pointer}
-#status {text-align:center;min-height:1.5em;margin-top:10px}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>مأموریت نمونه‌سازی جزء یادگیری</title>
+  <style>
+    :root {
+      --bg:#f6f9fb;
+      --card:#ffffff;
+      --ink:#1f2d3d;
+      --muted:#667788;
+      --blue:#235a91;
+      --teal:#2a8f8f;
+      --line:#dce6ec;
+      --soft:#eef7f7;
+    }
+    * { box-sizing:border-box; }
+    body {
+      margin:0;
+      background:linear-gradient(135deg,#f7fbff 0%,#f7fcfa 100%);
+      color:var(--ink);
+      font-family:Tahoma, Arial, sans-serif;
+      line-height:1.9;
+    }
+    .wrap {
+      max-width:900px;
+      margin:0 auto;
+      padding:32px 18px 48px;
+    }
+    .card {
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:20px;
+      box-shadow:0 10px 30px rgba(35,90,145,.08);
+      overflow:hidden;
+    }
+    header {
+      padding:24px 26px 18px;
+      border-bottom:1px solid var(--line);
+      background:linear-gradient(180deg,#fff,var(--soft));
+    }
+    h1 {
+      margin:0 0 8px;
+      font-size:26px;
+      color:var(--blue);
+    }
+    .lead {
+      margin:0;
+      color:var(--muted);
+      font-size:14px;
+    }
+    .content {
+      padding:24px 26px 28px;
+    }
+    .prompt {
+      white-space:pre-wrap;
+      background:#fbfcfd;
+      border:1px solid var(--line);
+      border-radius:16px;
+      padding:20px;
+      font-size:16px;
+    }
+    .actions {
+      display:flex;
+      gap:12px;
+      margin-top:18px;
+      flex-wrap:wrap;
+    }
+    button {
+      border:0;
+      border-radius:12px;
+      padding:12px 18px;
+      font-family:inherit;
+      font-size:15px;
+      font-weight:700;
+      cursor:pointer;
+      background:var(--teal);
+      color:#fff;
+    }
+    button:hover { filter:brightness(.95); }
+    #status {
+      align-self:center;
+      color:var(--teal);
+      font-size:14px;
+      min-height:1.5em;
+    }
+  </style>
 </head>
 <body>
-<div class="card">
-<h1>پرامپت</h1>
-<p class="subtitle">پرامپت را کپی کنید و در باکس چت مدل یا ابزار موردنظر خود قرار دهید.</p>
-<div id="prompt" class="prompt">برای مریم، پرستار باتجربه اورژانس بیمارستان آموزشی نیروانا، یک جزء یادگیری بسیار کوتاه طراحی کن که در حدود ۳ تا ۵ دقیقه قابل مطالعه و انجام باشد. این جزء مربوط به مرحله «یادگیری اولیه» است و باید او را برای تمرین بعدیِ مواجهه با همراه عصبانی آماده کند.
-
-فقط چهار بخش بساز:
-۱) یک موقعیت کوتاه و واقعی‌نما؛
-۲) سه اصل کلیدی برای پاسخ‌گویی؛
-۳) یک نمونه پاسخ قابل‌دفاع؛
-۴) یک سؤال تصمیم‌گیری کوتاه.
+  <main class="wrap">
+    <section class="card">
+      <header>
+        <h1>مأموریت نمونه‌سازی جزء یادگیری</h1>
+        <p class="lead">پرامپت را کپی کنید و در Mindsmith قرار دهید.</p>
+      </header>
+      <div class="content">
+        <div id="prompt" class="prompt">برای مریم، پرستار باتجربه اورژانس بیمارستان آموزشی نیروانا، یک جزء یادگیری بسیار کوتاه طراحی کن که در حدود ۳ تا ۵ دقیقه قابل مطالعه و انجام باشد. این جزء مربوط به مرحله «یادگیری اولیه» است و باید او را برای تمرین بعدیِ مواجهه با همراه عصبانی آماده کند. فقط چهار بخش بساز: ۱) یک موقعیت کوتاه و واقعی‌نما؛ ۲) سه اصل کلیدی برای پاسخ‌گویی؛ ۳) یک نمونه پاسخ قابل‌دفاع؛ ۴) یک سؤال تصمیم‌گیری کوتاه.
 
 در نمونه پاسخ، این معیارها را رعایت کن:
 - نگرانی فرد را به رسمیت بشناسد؛
@@ -34,30 +105,34 @@ button {width:100%;margin-top:16px;padding:15px 18px;font-size:1.05rem;border:0;
 - وعده نامطمئن ندهد؛
 - و در صورت نیاز، ضرورت ارجاع به سطح مناسب را مشخص کند.
 
-نمونه پاسخ را به‌عنوان «یک پاسخ قابل‌دفاع براساس معیارها» ارائه کن، نه به‌عنوان تنها پاسخ درست.
+نمونه پاسخ را به‌عنوان «یک پاسخ قابل‌دفاع براساس معیارها» ارائه کن، نه به‌عنوان تنها پاسخ درست. اطلاعاتی را که در سناریو وجود ندارد اختراع نکن.
 
-اطلاعاتی را که در سناریو وجود ندارد اختراع نکن. به‌ویژه مسیر دقیق ارجاع، فرد مسئول، مقررات داخلی، زمان انتظار، زمان پاسخ‌گویی یا هر جزئیات بیمارستانی دیگری را که تعریف نشده است، به‌عنوان واقعیت اضافه نکن.
+به‌ویژه مسیر دقیق ارجاع، فرد مسئول، مقررات داخلی، زمان انتظار، زمان پاسخ‌گویی یا هر جزئیات بیمارستانی دیگری را که تعریف نشده است، به‌عنوان واقعیت اضافه نکن. توضیح عمومی و طولانی تولید نکن. این جزء قرار نیست یک دوره کامل یا نقش‌آفرینی کامل باشد؛ فقط باید مریم را برای تمرین عملکردی بعدی آماده کند.</div>
+        <div class="actions">
+          <button id="copyBtn" type="button">کپی پرامپت</button>
+          <span id="status" aria-live="polite"></span>
+        </div>
+      </div>
+    </section>
+  </main>
 
-توضیح عمومی و طولانی تولید نکن. این جزء قرار نیست یک دوره کامل یا نقش‌آفرینی کامل باشد؛ فقط باید مریم را برای تمرین عملکردی بعدی آماده کند.</div>
-<button onclick="copyPrompt()">کپی پرامپت</button>
-<div id="status" aria-live="polite"></div>
-</div>
-<script>
-async function copyPrompt() {
-  const text = document.getElementById('prompt').innerText;
-  const status = document.getElementById('status');
-  try {
-    await navigator.clipboard.writeText(text);
-    status.textContent = 'پرامپت کپی شد.';
-  } catch (e) {
-    const range = document.createRange();
-    range.selectNodeContents(document.getElementById('prompt'));
-    const sel = window.getSelection();
-    sel.removeAllRanges();
-    sel.addRange(range);
-    status.textContent = 'متن انتخاب شد؛ گزینه Copy را بزنید.';
-  }
-}
-</script>
+  <script>
+    const btn = document.getElementById('copyBtn');
+    const status = document.getElementById('status');
+    btn.addEventListener('click', async () => {
+      const text = document.getElementById('prompt').innerText;
+      try {
+        await navigator.clipboard.writeText(text);
+        status.textContent = 'پرامپت کپی شد.';
+      } catch (e) {
+        const range = document.createRange();
+        range.selectNodeContents(document.getElementById('prompt'));
+        const sel = window.getSelection();
+        sel.removeAllRanges();
+        sel.addRange(range);
+        status.textContent = 'متن انتخاب شد؛ آن را کپی کنید.';
+      }
+    });
+  </script>
 </body>
 </html>
